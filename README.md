@@ -11,7 +11,7 @@ yarn add -D -E \
     @graphql-codegen/typescript-graphql-files-modules \
     @graphql-codegen/typescript-operations \
     @graphql-codegen/typescript-react-apollo \
-    @graphql-eslint/eslint-plugin \
+    @graphql-eslint/eslint-plugin
 ```
 
 ## 2. Create a file `codegen.yaml` at root folder:
@@ -68,8 +68,7 @@ generates:
       }
     },
     {
-       // Other configs here
-       .....
+      "other": "configs here"
     }
   ]
 }
